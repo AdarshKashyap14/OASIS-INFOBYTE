@@ -1,0 +1,115 @@
+* { 
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&family=Noto+Serif&family=Playfair+Display:ital@1&family=Roboto+Mono&family=Special+Elite&family=Zilla+Slab&display=swap');
+
+  html {
+    font-family: Noto Serif, serif;
+    font-size: 10px;
+    font-weight: 150;
+    color: black;
+    background: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4NjUwODQ3LWltYWdlLWpvYjYzMC1hXzIuanBn.jpg);
+  }
+
+  body {
+    font-size: 2.6rem;
+    margin: 0 auto;
+    width: 70vw;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    body {
+      width: 100vw;
+    }
+  }
+
+  @media (min-width: 1200px) {
+    body {
+      max-width: 700px;
+    }
+  }
+
+  h1 {
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 4rem;
+    color: black;
+  }
+
+  h2 {
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 2.8rem;
+    margin: 50px 0 25px 0;
+    text-align: center;
+  }
+
+  h3 {
+    font-family: Noto Sans JP, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 40px 0 5px 0;
+    color: black;
+  }
+
+  .header h1 {
+    text-shadow: 4px 4px 4px white;
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    animation: animat 12s ease-in-out infinite;
+  }
+
+  @keyframes animat {
+    0%, 100% {
+      color: brown;
+    }
+    25% {
+      color: black;
+    }
+    50% {
+      color: rgb(33, 33, 56);
+    }
+    75% {
+      color: rgb(163, 37, 111);
+    }
+  }
+
+  .header {
+    min-height: 40rem;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    list-style-type: none;
+    animation: animate 12s ease-in-out infinite;
+  }
+@keyframes animate{
+    0%, 100%{
+        background-image: url(Madrid_-_Plaza_Joan_Miró\,_Monumento_a_Mohandas_K._Gandhi_2.jpg);
+        
+    }
+    25%{
+        background-image: url(Gandhi_and_Nehru_in_1946.jpg);
+    }
+
+    50%{
+        background-image: url(Gandhi_Jinnah_1944.jpg);
+    }
+    75%{
+        background-image: url(Mountbattens_with_Gandhi_\(IND_5298\).jpg);
+    }
+}
+
+.founder{
+    border: 2px solid;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+    border-radius:10px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    /* background-image: url(/image/i6.jpg); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}

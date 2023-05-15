@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url(Checklist.jpg);
+  background-size:cover;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 10px;
+  min-height:500px;
+}
+
+header {
+    text-align: center;
+    text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  /* display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  background-color: #514e4e;
+  color: #db8888;
+  padding: 1rem;
+}
+
+.input-wrapper {
+  display: flex;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  border-radius: 5px ;
+}
+
+button {
+  padding: 10px;
+  border: none;
+  margin-left: 10px;
+
+  border-radius: 5px 5px 5px 5px;
+  background-color: #4CAF50;
+  color: rgb(249, 238, 238);
+  
+  cursor: pointer;
+}
+button:hover{
+    background: rgb(255, 123, 0);
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.task-wrapper {
+  margin-top: 20px;
+  /* text-shadow: 2px 2px 2px rgb(243, 239, 239); */
+}
+h2{
+    text-shadow: 2px 2px 2px rgb(215, 182, 74);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+    padding: 10px;
+    margin-bottom: 5px;
+  background-color: rgb(16, 23, 23);
+  font-weight: bold;
+ 
+  border-radius: 5px;
+}
+
+.completed {
+  text-decoration: line-through #ff7300;
+  opacity: 0.5;
+}
+footer {
+  text-align: center;
+/*   display: flex;
+  justify-content: space-between; */
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+}
+
+footer:hover{
+    color: #1e78b9;
+}
