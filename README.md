@@ -17,8 +17,4 @@ A tribute page created under the virtual internship program of Oasis Infobyte. <
 to Develop a basic To-Do Webapp that enables a user to add daily tasks.<br>
 [Live](https://adarshkashyap14.github.io/OASIS-INFOBYTE/TASK%203)
 
-<div align="center">
-<img height="337px" src="https://github.com/ashhar-rahman/OASIS-INFOBYTE/blob/main/CERTIFICATE/ASHHAR%20RAHMAN%20Certificate.jpg">
-<img width="337px" src="https://github.com/ashhar-rahman/OASIS-INFOBYTE/blob/main/CERTIFICATE/ASHHAR%20RAHMAN%20Offer%20Letter.jpg">
-</div>
 
